@@ -43,6 +43,7 @@ header{
 }
 #menu nav{
     font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     
 }
@@ -57,7 +58,16 @@ header{
 .search ::-webkit-input-placeholder{
     color: #fff;
 }
+.search button{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 1px;
 
+}
+.search i{
+    color: rgb(255, 255, 255, .5);
+}
 
 
 
