@@ -14,15 +14,16 @@ header{
 
 }
 .header-black li{
-    background-image: url("../img/eva00.webp");
-    background-repeat: no-repeat;
-    display: inline block;
+    display: inline-block;
 }
-.header-black li a{
-    width: 32px;
-    height: 32px;
-    display: block;
+.evas{
+    height: 35px;
+    width: 35px;
+   
 }
+
+
+
 #logo{
     position: absolute;
     height: 150px;
