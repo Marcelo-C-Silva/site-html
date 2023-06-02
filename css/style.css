@@ -1,9 +1,15 @@
 header{
     width: 100%;
     height: 150px;
-    background-color: #FF0000;
+    background-color: #ff0000;
    
 }
+#logo{
+    position: absolute;
+    height: 150px;
+    top: 20px;
+}
+
 .container{
     position: relative;
 }
@@ -17,16 +23,41 @@ header{
     display: inline-block;
 }
 .evas{
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
    
 }
-
-
-
-#logo{
-    position: absolute;
-    height: 150px;
-    top: -20px;
+#menu{
+    margin: 30px 0;
 }
+#menu li {
+    display: inline-block;
+    
+}
+#menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+    
+}
+#menu nav{
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    
+}
+
+.search input{
+    background-color: #a1000086 ;
+    color: #fff;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+}
+.search ::-webkit-input-placeholder{
+    color: #fff;
+}
+
+
+
 
