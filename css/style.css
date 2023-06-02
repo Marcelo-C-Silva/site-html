@@ -1,15 +1,17 @@
 header{
     width: 100%;
     height: 150px;
-    background-color: #ff0000;
-   
+    background-color: #ff0000da;
+    z-index: 2;
+    position: relative;
 }
+
 #logo{
     position: absolute;
     height: 150px;
     top: 20px;
+    z-index: 3;
 }
-
 .container{
     position: relative;
 }
@@ -67,6 +69,33 @@ header{
 }
 .search i{
     color: rgb(255, 255, 255, .5);
+}
+#banner{
+    width: 100%;
+    height: 728px;
+    position: relative;
+    background-image: url(../img/banner.jpg);
+    top: -110px;
+    font-family: 'Roboto Slab', serif;
+   
+}
+#banner img{
+    top: 110px;
+    position: absolute;
+    left: 720px; 
+}
+#banner h1{
+    color: #fff;
+    top: 300px;
+    position: relative;
+    font-size: 92px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+}
+#banner small{
+    font-size: 32px;
+    display: block;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
 }
 
 
