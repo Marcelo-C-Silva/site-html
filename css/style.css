@@ -132,6 +132,25 @@ header{
     font-family: 'Open Sans' ;
     font-weight: bold;
 }
-
+#statistics{
+    margin-top: -40px;
+    background-color:#8B0000;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+#statistics p{
+    color: #fde092;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 36px;
+   
+}
+#statistics small{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
 
 
