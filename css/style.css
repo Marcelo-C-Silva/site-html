@@ -112,6 +112,26 @@ header{
     margin: 0 auto;
 
 }
+#news .thumbs{
+    margin-top: 20px;
+}
+#news img{
+    width: 250px;
+}
+.thumbs h3{
+    margin-top: 15px;
+    color:#8B0000;
+    font-size: 18px;
+    font-family: 'Open Sans' ;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.thumbs time{
+    color: #a7a7a7a4;
+    font-size: 18px;
+    font-family: 'Open Sans' ;
+    font-weight: bold;
+}
 
 
 
