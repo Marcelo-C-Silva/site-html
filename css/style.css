@@ -44,7 +44,6 @@ header{
     
 }
 #menu nav{
-    font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     
@@ -76,8 +75,7 @@ header{
     position: relative;
     background-image: url(../img/banner.jpg);
     top: -110px;
-    font-family: 'Roboto Slab', serif;
-   
+    font-family: 'Open Sans', sans-serif;
 }
 #banner img{
     top: 110px;
@@ -96,6 +94,23 @@ header{
     font-size: 32px;
     display: block;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+}
+#news{
+    position: relative;
+    top: -110px;
+}
+#news h2{
+    color: #8B0000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#news hr{
+    border:#FF0000 solid 2px;
+    width: 200px;
+    margin: 0 auto;
+
 }
 
 
