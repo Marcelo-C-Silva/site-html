@@ -175,5 +175,24 @@ header{
     color: #656565;
 
 }
-
-
+#callToAction .btn{
+    min-width: 164px;
+    height: 44px;
+    line-height: 26px;
+    border-radius: 0%;
+}
+#callToAction .btn1{
+    color:#fde092;
+    background-color: #8B0000;
+    border-color: #8B0000;
+    
+}
+#callToAction .btn2{
+    color:#8B0000 ;
+    background-color:#fde092 ;
+    border-color: #fde092;
+}
+#CallToAction .row-max-400{
+    margin: 0 auto;
+    max-width: 400px ;
+}
