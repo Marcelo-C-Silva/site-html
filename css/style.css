@@ -181,13 +181,13 @@ header{
     line-height: 26px;
     border-radius: 0%;
 }
-#callToAction .btnRed{
+.btnRed{
     color:#fde092;
     background-color: #8B0000;
     border-color: #8B0000;
     
 }
-#callToAction .btnYellow{
+.btnYellow{
     color:#8B0000 ;
     background-color:#fde092 ;
     border-color: #fde092;
@@ -195,4 +195,25 @@ header{
 #CallToAction .row-max-400{
     margin: 0 auto;
     max-width: 400px ;
+}
+footer{
+    margin-top: 110px;
+}
+footer .row{
+    width: 100%;
+}
+.rowLightGray{
+    height: 200px;
+    background-color: #171f26;
+    
+}
+.rowdarkGray{
+    height: 55px;
+    background-color: #11171d;
+    border-top: #242d37 1px solid;
+}
+.txRed{
+    color:#8B0000 ;
+    font-weight: bold;
+    font-size: 14px;  
 }
