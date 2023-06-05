@@ -181,13 +181,13 @@ header{
     line-height: 26px;
     border-radius: 0%;
 }
-#callToAction .btn1{
+#callToAction .btnRed{
     color:#fde092;
     background-color: #8B0000;
     border-color: #8B0000;
     
 }
-#callToAction .btn2{
+#callToAction .btnYellow{
     color:#8B0000 ;
     background-color:#fde092 ;
     border-color: #fde092;
