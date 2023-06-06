@@ -27,6 +27,7 @@ header{
 .evas{
     height: 40px;
     width: 40px;
+    list-style: none;
    
 }
 #menu{
@@ -238,11 +239,22 @@ footer .row{
     
 }
 .popularPost, .links, .getInTouch{
-
+    margin-top: 40px;
 }
 .finalCols h4{
-    color: #fde092c5;
+    color:  #FF0000;
     font-size: 16px;
     padding-bottom: 17px;
     border-bottom: #242d37 1px solid;
+}
+.finalCols h5{
+    color: #666;
+    font-size: 14px;
+}
+.finalCols time{
+    color: #fde092;
+    font-size: 14px;
+}
+.finalCols ul{
+    list-style: none;
 }
