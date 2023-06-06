@@ -265,16 +265,34 @@ footer .row{
     color: #fff;
     font-size: 14px;
 }
+.links i {
+    margin: 5px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.links a, .getInTouch a{
+    color: #fff;
+    text-decoration: none;
+}
 .getInTouch address{
     color: #666;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
 }
 .getInTouch address span{
     display: inline-block;
+}
+.getInTouch address i{
+    position: relative;
+    top: -14px;
 }
 .getInTouch i{
     color: #9b9b9b;
     font-size: 14px;
     margin: 0 6px;
+   
 
+}
+.getInTouch p{
+    line-height: 20px;
 }
