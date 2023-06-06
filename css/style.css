@@ -240,8 +240,10 @@ footer .row{
 }
 .popularPost, .links, .getInTouch{
     margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 .finalCols h4{
+    text-transform: uppercase;
     color:  #FF0000;
     font-size: 16px;
     padding-bottom: 17px;
@@ -258,4 +260,21 @@ footer .row{
 }
 .finalCols ul{
     list-style: none;
+}
+.links{
+    color: #fff;
+    font-size: 14px;
+}
+.getInTouch address{
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+}
+.getInTouch address span{
+    display: inline-block;
+}
+.getInTouch i{
+    color: #9b9b9b;
+    font-size: 14px;
+    margin: 0 6px;
+
 }
