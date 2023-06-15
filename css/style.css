@@ -37,6 +37,10 @@ header{
     display: inline-block;
     
 }
+#menu li.search{
+    width: 182px;
+    transition-duration: 1s;
+}
 #menu li a {
     text-decoration: none;
     color: #fff;
@@ -44,12 +48,9 @@ header{
     padding: 10px 25px;
     
 }
-#menu nav{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    
+#menu li.search.ativo{
+    width: 300px;
 }
-
 .search input{
     background-color: #a1000086 ;
     color: #fff;
@@ -57,6 +58,15 @@ header{
     height: 30px;
     line-height: 30px;
 }
+#menu li.search.ativo input{
+    width: 300px;
+}
+#menu nav{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    
+}
+
 .search ::-webkit-input-placeholder{
     color: #fff;
 }
