@@ -197,7 +197,11 @@
     <script>
         $(document).ready(function(){
             $("#logo").on("mouseover", function(){
-                $("#banner h1").css({"color":"red", "font-size":"12em", "transition":"1s"})
+                $("#banner h1").addClass("efeito");
+
+            }).on("mouseout", function () {
+                $("#banner h1").removeClass("efeito");
+
             });
         });
     </script>
