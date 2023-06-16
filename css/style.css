@@ -39,7 +39,10 @@ header{
 }
 #menu li.search{
     width: 182px;
-    transition-duration: 1s;
+    transition:500ms;
+    transition-timing-function:linear;
+    
+    
 }
 #menu li a {
     text-decoration: none;
@@ -50,6 +53,7 @@ header{
 }
 #menu li.search.ativo{
     width: 300px;
+    
 }
 .search input{
     background-color: #a1000086 ;
@@ -60,6 +64,7 @@ header{
 }
 #menu li.search.ativo input{
     width: 300px;
+    
 }
 #menu nav{
     font-family: 'Open Sans', sans-serif;
