@@ -40,7 +40,7 @@ header{
 #menu li.search{
     width: 182px;
     transition:500ms;
-    transition-timing-function:linear;
+    transition-duration:500ms;
     
     
 }
